@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		498D59F4269FD878006230F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D59F3269FD878006230F2 /* AppDelegate.swift */; };
 		498D59F6269FD878006230F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D59F5269FD878006230F2 /* SceneDelegate.swift */; };
-		498D59F8269FD878006230F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D59F7269FD878006230F2 /* ViewController.swift */; };
+		498D59F8269FD878006230F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D59F7269FD878006230F2 /* LoginViewController.swift */; };
 		498D59FB269FD878006230F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D59F9269FD878006230F2 /* Main.storyboard */; };
 		498D59FD269FD87A006230F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498D59FC269FD87A006230F2 /* Assets.xcassets */; };
 		498D5A00269FD87A006230F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D59FE269FD87A006230F2 /* LaunchScreen.storyboard */; };
+		498D5A0826A007DD006230F2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D5A0726A007DD006230F2 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		498D59F0269FD878006230F2 /* Account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Account.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498D59F3269FD878006230F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498D59F5269FD878006230F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		498D59F7269FD878006230F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		498D59F7269FD878006230F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		498D59FA269FD878006230F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498D59FC269FD87A006230F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498D59FF269FD87A006230F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498D5A01269FD87A006230F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D5A0726A007DD006230F2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				498D59F3269FD878006230F2 /* AppDelegate.swift */,
 				498D59F5269FD878006230F2 /* SceneDelegate.swift */,
-				498D59F7269FD878006230F2 /* ViewController.swift */,
+				498D59F7269FD878006230F2 /* LoginViewController.swift */,
 				498D59F9269FD878006230F2 /* Main.storyboard */,
+				498D5A0726A007DD006230F2 /* WelcomeViewController.swift */,
 				498D59FC269FD87A006230F2 /* Assets.xcassets */,
 				498D59FE269FD87A006230F2 /* LaunchScreen.storyboard */,
 				498D5A01269FD87A006230F2 /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498D59F8269FD878006230F2 /* ViewController.swift in Sources */,
+				498D59F8269FD878006230F2 /* LoginViewController.swift in Sources */,
+				498D5A0826A007DD006230F2 /* WelcomeViewController.swift in Sources */,
 				498D59F4269FD878006230F2 /* AppDelegate.swift in Sources */,
 				498D59F6269FD878006230F2 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = OliievskyiAndrii.Account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = OliievskyiAndrii.Account;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
